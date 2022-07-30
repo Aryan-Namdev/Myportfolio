@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@600&family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Prompt:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+/* =====
+Universal
+======== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+/* =====
+Navigation
+======== */
+
+.nav-container{
+    background-color: #0D15AE;
+}
+
+.nav-container a{
+    color:rgb(193, 193, 193);
+    font-size: 0.55rem;
+}
+
+.nav-container a:hover{
+    color: white;
+    transition: 200ms all ease-in-out;
+}
+
+.nav-container .active a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: .9em;
+    align-items: center;
+}
+
+header .logo{
+    height: .9rem;
+    /* display: inline-block; */
+}
+
+
+header>nav>ul{
+    display: flex;
+    /* gap: 1.5em; */
+    font-size: .5rem;
+}
+
+header>nav>ul>li>a{
+    display: block;
+    padding: 0 1em;
+}
+
+.social-header,.illustration{
+    display: none;
+}
+
+/* =====
+Hero
+======== */
+
+.hero{
+    background-color: #0915C6;
+    color:white;
+    display: grid;
+    text-align: center;
+    padding: 3.5em;
+}
+
+.hero>.content h1{
+    font-size: 2.8rem;
+    margin-top: .5EM;
+    line-height: 3REM;
+    width: 80%;
+    margin: .5em auto 0;
+    text-align: center;
+}
+
+span{
+    color: #FFA8B8;
+}
+
+.hero>.content>h3{
+    color: white;
+    font-size: 1rem;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+
+.hero>.content>.line{
+    height: 3px;
+    width: 20%;
+    background-color:#FFA8B8;
+    display: block;
+    margin: 0 auto;
+}
+
+section{
+    padding: 3.5em 2em;
+    text-align: center;
+}
+
+.left h2{
+    text-transform: uppercase;
+    color: #0915C6;
+    letter-spacing: .2em;
+    font-size: .8rem;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: .22em;
+    font-size: .8rem;
+}
+
+
+/* =====
+Featured projects
+======== */
+
+.featured-projects > h2{
+    color: #0915C6;
+    margin-bottom: 3em;
+}
+
+.projects-container h4{
+    font-size: .6rem;
+    /* margin-bottom: 2em; */
+}
+
+.projects-container{
+    padding: 1em;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 1.5em;
+    border-radius: .3em;
+}
+
+.projects-container:hover
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+}
+
+
+/* =====
+Contact Me
+======== */
+
+.contact-me{
+    display: block;
+    margin: 3em auto 0;
+    text-align: center;
+}
+
+.contact-me h3{
+    color:#0915C6;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+.contact-me a{
+    color: #6C6C6C;
+    text-decoration: underline;
+    font-size: .7rem;
+
+}
+
+.transition-2:hover{
+    transition: all 200ms ease-in-out;
+    box-shadow: 0px 0px 20px rgba(28, 27, 27, 0.347)   
+}
+
+
+
+/* ========
+Skillls
+========== */
+
+.skills{
+    background-color: #DB6A80;
+}
+
+.skills h2{
+    color: white;
+    margin-bottom: 3em;
+}
+
+.skills-container>ul>li{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1.3em;
+    color: aqua;
+}
+
+.skill-title{
+    color: #DB6A80;
+    padding-top: 1em;
+}
+
+.icon-container{
+    /* width: 30%; */
+    /* height: 8rem; */
+    display: flex;
+    /* margin: auto; */
+    place-content: center;
+    /* background-color: red; */
+    
+}
+
+.skills-container>ul>li>h3{
+    color: #DB6A80;
+    padding: 0.5em 0;
+    font-size: 1.2rem;
+    
+}
+
+.skills-container>ul li>p{
+    font-size: .6rem;
+    line-height: 1.3rem;
+}
+
+.transition-2>a{
+    font-size: .7rem;
+    /* color: red; */
+}
+
+.transition-2>a:hover{
+    color: #0D15AE;
+}
+
+
+a{
+    font-size: 0.rem;
+}
+
+
+/* =====
+Footer
+======== */
+
+footer{
+    background-color: #0D15AE;
+    display: flex;
+    justify-content: space-between;
+    padding: .9em;
+    height: 20vh;
+    margin-top: 2em;
+}
+
+footer .logo{
+    height: .9rem;
+}
+
+footer ul{
+    display: flex;
+    font-size: .5rem;
+    gap: 0.5em
+}
+
+footer ul li{
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+
+footer ul img{
+    padding: .3em;
+    display: block;
+    height: 1.5rem;
+}
+
+/* =====
+Media Queries
+======== */
+
+@media only screen and (min-width: 800px){ 
+    
+    /* =====
+Hero
+======== */
+
+
+    .hero>.content>h1{
+        font-size: 4rem;
+        padding-bottom: 1.5em;
+    }
+
+    .hero>.content>h3{
+        font-size: 1.5rem;
+        margin: .5em 0%
+    }
+
+    /* =====
+About Me
+======== */
+
+    .left img{
+        display: none;
+    }
+
+    .right img{
+        display: inline-block;
+        width: 70%;
+        margin: 1.5em 0 .5em 0 ;
+
+    }
+
+    button{
+        display: block;
+        font-size: .9rem;
+        border-radius: 5px;
+    }
+
+
+    .button-1{
+        display: block;
+        padding: .1em .7em;
+        background-color:#FFA8B8;
+        color: white;
+        border: none;
+        margin-top: .5em;
+    }
+
+    .button-2{
+        padding: .1em .40em;
+        margin-top: .5em;
+        display: block;
+        background-color:transparent;
+        color: white;
+        border: solid #FFA8B8 1px;
+    }
+
+    .projects-container{
+        display: grid;
+        align-items: center;
+        margin: 0;
+        padding: 1em 2em;
+    }
+
+    .odd{
+        display: grid;
+        grid-template-columns: auto 60%;
+        text-align: left;
+    }
+
+    .even{
+        display: grid;
+        grid-template-columns: 60% auto;
+        text-align: right;
+
+    }
+
+    .odd >a{
+        order: 2;
+    }
+
+
+    .left{
+        order: 2;
+    }
+
+
+    .left h2, 
+    h2,
+    .featured-projects > h2{
+        font-size: 1.3rem;
+    }
+
+    .about-me>.left>p,
+    p{
+        margin-top: .5em;
+        /* margin-bottom: 2.3em; */
+        font-size: .8rem;
+        line-height: 1.8rem;
+        color: #6C6C6C;
+    }
+
+    .skills{
+        height: 60vh;
+        margin-bottom: 15em;
+    }
+
+    .skills-container ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+
+    .skills-container li{
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.141);
+
+    }
+
+    .featured-projects{
+        margin-top: 2em;
+        box-shadow: none;
+        padding: 5em 0;
+    }
+
+    .projects-container{
+        background: none;
+        box-shadow: none;
+        padding: 2.5em;
+    }
+
+
+    .even .inner{
+        padding-left: 1em;
+    }
+
+    .projects-container h4{
+        text-align: left;
+        /* margin-left: 1em; */
+        font-size: 1.3rem;
+    }
+
+    .logo{
+        height: 3rem;
+    }
+
+
+
+}
+
+@media only screen and (min-width:1050px){
+
+    header .logo,
+    footer .logo{
+        height: 1.5rem;
+        /* display: inline-block; */
+    }
+
+    header>nav>ul{
+        display: flex;
+        /* gap: 1.5em; */
+        font-size: 1.5rem;
+        padding-bottom: 1em;
+    }
+
+    header li a{
+        font-size: 3rem;
+    }
+
+    .nav-container{
+        height: 13vh;
+        padding: .5em 1em;
+        align-items: center;
+    }
+
+    
+    .social-header ul{
+        display: flex;
+        justify-content: center;
+        gap: .1em;
+        display: none;
+
+    }
+
+    .hero .content{
+        text-align: left;
+        padding-top: 8.5em;
+        
+    }
+
+    .hero .content h1{
+        font-size: 6rem;
+        line-height: 6.5rem;
+        margin: 0;
+        padding-top: .5em;
+        text-align: left;
+    }
+
+    .hero{
+        height: 90vh;
+        display: flex;
+        /* grid-template-columns: 50% auto; */
+        justify-content: space-between;
+        background-color:#0915C6;
+        align-items: center;
+        padding: 0 2em;
+        position: relative;
+    }
+
+
+    .hero .content p{
+        position: relative;
+        font-size: 1.5rem;
+        margin-top: 2em;
+        padding: 0;
+
+    }
+
+    .hero .content .line{
+        position: absolute;
+        width: 80px;
+        height: 4px;
+        display: inline-block;
+    }
+    .illustration{
+        display: inline-block;
+    }
+    .illustration img{
+        display: inline-block;
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 1%;
+        /* width: 130%; */
+    }
+
+
+    .skills-container ul{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        gap: 1.8em;
+        justify-content: center;
+    }
+
+
+
+    .section{
+        padding: 4em;
+    }
+
+    footer{
+        height: 20vh;
+        padding: 1em 4em;
+    }
+    
+    footer ul img{
+    display: none;
+    }
+
+    .nav-container li{
+        display: block;
+        z-index: 99999;
+    }
+}
+
+@media only screen and (min-width:1350px){
+
+    .hero .content{
+        padding-left: 1em;
+        text-align: left;
+    }
+    .hero .content h1{
+        font-size: 7rem;
+        line-height: 109.5%;
+        /* margin-top: -.4em; */
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+
+    .about-me h2,  .skills h2, .featured-projects h2{
+        font-size: 1.7rem;
+    }
+
+    .about-me p,  .skills p{
+        font-size: 1rem;
+    }
+
+
+    .illustration img{
+        display: inline-block;
+        width: 45%;
+        position: absolute;
+        bottom: 0;
+        right: 1%;
+        /* width: 130%; */
+    }
+
+    .about-me{
+        padding: 5EM 4EM ;
+    }
+
+
+    .about-me>.left>p{
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+
+    .skills-container ul li h3,
+    contact-me h3{
+        font-size: 1.5rem;
+    }
+
+    .skills-container ul li p{
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+
+    .featured-projects{
+        padding-top: 3em;
+    }
+
+
+    
+    .featured-projects h4{
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+
+
+    .button{
+        font-size: 2rem;
+    }
+
+    .contact-me a{
+        font-size: 1rem;
+    }
+
+
+    header .logo,
+    footer .logo{
+        height: 1.5rem;
+        margin-top: -.7em;
+    }
+
+    .nav-container a{
+        font-size: .8rem;
+    }
+}
+
